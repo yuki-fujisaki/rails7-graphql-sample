@@ -4,7 +4,7 @@ module Resolvers::QueryTypes
         argument :id, ID, required: false
 
         def resolve(id:)
-        User.find(id)
+            User.find(id)
         end
     end
 end
