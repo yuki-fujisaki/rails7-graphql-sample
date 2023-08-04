@@ -5,4 +5,4 @@ module Resolvers::QueryTypes
         User.all
       end
     end
-  end
+end
